@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: url(img/bg3.jpg) no-repeat center/ cover;
+
+}
+
+.header {
+    font-size: 1.8rem;
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.main-contenet {
+    width: auto;
+    height: 500px;
+    align-items: center;
+}
+
+.main-contenet .text-area {
+    font-size: 1.9rem;
+    line-height: 1.5;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 95vh;
+    margin: 5px auto;
+}
+
+.main-contenet .author {
+    font-size: 1.5rem;
+    color: red;
+    margin-top: 12h;
+    padding: 5px;
+}
+
+.btn-area button {
+    background-color: #262626;
+    color: #ffff;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    margin: 5vh auto;
+    border-radius: 10px;
+}
+
+.btn-area button:active {
+    background-color: lightblue;
+}
